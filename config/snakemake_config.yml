@@ -1,0 +1,115 @@
+chr: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22]
+
+fold: [1,2,3,4,5]
+
+GTEX_PHENO_DATA: "/path/to/.gz"
+ADNI_PHENO_DATA: "/path/to/.tsv"
+
+GTEX_ANNOT_DATA: "/path/to/.gtf"
+
+VCF_dir:
+        GTEX:
+            NO_RAREVARIANTS:
+                          "/path/to/"
+
+VCF_suffix:
+          GTEX:
+              NO_RAREVARIANTS:
+                              "_phased_filtered.vcf.gz"
+
+tba_matrix_dir:
+    GTEX: 
+        "/path/to/"
+    GTEX_NO_RAREVARIANTS:
+        "/path/to/"
+    GEUVADIS:  
+            EUR:
+                "/path/to/"
+            YRI:
+                "/path/to/"
+    ADNI:
+        "/path/to/"
+    ADNI_NO_RAREVARIANTS:
+        "/path/to/"
+
+tba_matrix_suffix:
+    GEUVADIS:
+            EUR:
+                "/path/to/.gz"
+            YRI:
+                "/path/to/.gz"
+    GTEX:
+        "/path/to/.gz"
+    GTEX_NO_RAREVARIANTS:
+        "/path/to/.tsv"
+    ADNI: 
+        "/path/to/.gz"
+    ADNI_NO_RAREVARIANTS:
+        "/tba.tsv"
+
+expr_matrix_dir:
+        GEUVADIS_EUR: 
+            "/path/to/.gz"
+        GTEX: 
+            "/path/to/"
+
+expr_matrix_suffix:
+        GEUVADIS:
+                "" 
+        GTEX:
+            "/path/to/.tsv"
+
+FRACTION: 0.1
+
+RAM_LIMIT: 10
+
+GTEX_TISSUE: [
+    'Adipose_Subcutaneous',
+    'Adipose_Visceral_Omentum',
+    'Adrenal_Gland',
+    'Artery_Aorta',
+    'Artery_Coronary',
+    'Artery_Tibial',
+    'Brain_Amygdala',
+    'Brain_Anterior_cingulate_cortex_BA',
+    'Brain_Caudate_basal_ganglia',
+    'Brain_Cerebellar_Hemisphere',
+    'Brain_Cerebellum',
+    'Brain_Cortex',
+    'Brain_Frontal_Cortex_BA',
+    'Brain_Hippocampus',
+    'Brain_Hypothalamus',
+    'Brain_Nucleus_accumbens_basal_ganglia',
+    'Brain_Putamen_basal_ganglia',
+    'Brain_Spinal_cord_cervical_c',
+    'Brain_Substantia_nigra',
+    'Breast_Mammary_Tissue',
+    'Cells_EBV_transformed_lymphocytes',
+    'Cells_Transformed_fibroblasts',
+    'Colon_Sigmoid',
+    'Colon_Transverse',
+    'Esophagus_Gastroesophageal_Junction',
+    'Esophagus_Mucosa',
+    'Esophagus_Muscularis',
+    'Heart_Atrial_Appendage',
+    'Heart_Left_Ventricle',
+    'Liver',
+    'Lung',
+    'Minor_Salivary_Gland',
+    'Muscle_Skeletal',
+    'Nerve_Tibial',
+    'Ovary',
+    'Pancreas',
+    'Pituitary',
+    'Prostate',
+    'Skin_Not_Sun_Exposed_Suprapubic',
+    'Skin_Sun_Exposed_Lower_leg',
+    'Small_Intestine_Terminal_Ileum',
+    'Spleen',
+    'Stomach',
+    'Testis',
+    'Thyroid',
+    'Uterus',
+    'Vagina',
+    'Whole_Blood'
+]
