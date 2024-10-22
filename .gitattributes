@@ -1,0 +1,6 @@
+# Specify languages for GitHub language stats
+*.R linguist-language=R
+*.r linguist-language=R
+*.pl linguist-language=Perl
+*.pm linguist-language=Perl
+*.py linguist-language=Python
