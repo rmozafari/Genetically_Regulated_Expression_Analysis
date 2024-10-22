@@ -18,7 +18,9 @@ The pipeline is structured to facilitate reproducible research in genomics, enab
 ├── src
 │   ├── MultiAssayExp.constructor.R
 │   ├── SumExp.constructor.R
-│   └── transpose
+│   └── transpose.pl
+│   └── glm.R
+│   └── Kfold_CrossValidation.R
 └── snakefiles
     └── crossvalidation.smk
 ```
